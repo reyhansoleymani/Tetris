@@ -13,7 +13,6 @@ public class SettingPanel extends JPanel {
     private JSlider v;
     private Const aConst = Const.getInstance();
     private JButton back;
-    private ت
     private SettingController controller = new SettingController();
     public SettingPanel(){
         setSize(aConst.getxReso(), aConst.getyReso());
